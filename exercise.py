@@ -1,8 +1,12 @@
-def outer():
-    def inner():
-        print("I'm nested function")
+# Dictionary
 
-    print("I'm outside function")
-    inner()
+dog = {"name": "Roger", "age": 8, "color": "green"}
 
-outer() 
+dog["favourite food"] = "Meat"
+
+del dog['color']
+
+dogCopy = dog.copy()
+
+print(dog)
+print(dogCopy)

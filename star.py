@@ -22,7 +22,7 @@ dogCopy = dog.copy()
 print(dog)
 print(dogCopy) """
 
-# Sets集合
+# Sets集合(easy)
 """ set1 = {"Roger", "Syd"}
 set2 = {"Roger"}
 
